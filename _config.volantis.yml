@@ -804,9 +804,9 @@ color_scheme:
     site_footer: '#666'
 
     # 卡片背景色
-    card: '#ccfdff'
+    card: '#ededed'
     # 卡片上的普通文字
-    text: '#ff6c0a'
+    text: '#444'
 
     # 区块和代码块背景色
     block: '#f6f6f6'
@@ -845,7 +845,7 @@ color_scheme:
     text: '#eee'
 
     # 区块和代码块背景色
-    block: '#3a3a3a'
+    block: '#ededed'
     # 代码块高亮时的背景色
     codeblock: '#343a3c'
     # 行内代码颜色
