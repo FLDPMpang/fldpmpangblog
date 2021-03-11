@@ -548,7 +548,7 @@ plugins:
 
   # highlight.js
   highlightjs:
-    enable: false #true # Please set hexo.config.highlight.enable = false !!!
+    enable: false  # Please set hexo.config.highlight.enable = false !!!
     js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js
     css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/atom-one-dark.min.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
@@ -897,7 +897,7 @@ custom_css:
     highlight:
       language: true # show language of codeblock
       copy_btn: true
-      grayscale: true # Enable grayscale effect
+      grayscale: false # Enable grayscale effect
     text_align: # left, right, justify, center
       h1: left
       h2: left
