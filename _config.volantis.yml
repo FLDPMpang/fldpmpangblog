@@ -376,12 +376,12 @@ sidebar:
       avatar: https://i.loli.net/2021/03/09/w6Yj91qBmIHGEh4.jpg
       shape: rectangle # circle, rectangle
       url: /about/
-      title:
+      title: "FLDPMpang Blog"
       subtitle: "18岁,是学生"
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
         - icon: fas fa-envelope-open
-          url: mailto:me@frozenpang@gmail.com
+          url: mailto:frozenpang@gmail.com
         - icon: fab fa-github
           url: https://github.com/FLDPMpang
         - icon: fab fa-telegram
@@ -510,10 +510,9 @@ site_footer:
     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
-  copyright: '[@2021FLDPMpang](https://github.com/FLDPMpang/fldpmapngblog) 
+  copyright: '<a href="https://github.com/FLDPMpang" target="_blank" rel="nofollow noopener"><span>@2021FLDPMpang</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo强力驱动</span></a>
-  '
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo强力驱动</span></a>  '
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 ############################### Site Footer ############################### > end
@@ -788,7 +787,7 @@ color_scheme:
     # 按钮色
     button: '#3F51B5'
     # 鼠标放到交互元素上时的色
-    hover: '#AA00FF'
+    hover: '#0099ff'
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 选中区域文字的背景颜色
@@ -809,7 +808,7 @@ color_scheme:
     text: '#444'
 
     # 区块和代码块背景色
-    block: '#f6f6f6'
+    block: '#FFF7EA'
     # 代码块高亮时的背景色
     codeblock: '#FFF7EA'
     # 行内代码颜色
