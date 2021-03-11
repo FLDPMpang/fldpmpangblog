@@ -36,20 +36,20 @@ navbar:
     - name: 归档
       icon: fas fa-archive
       url: archives/
-    - name: 友链
-      icon: fas fa-link
-      url: friends/
     - name: 关于
       icon: fas fa-info-circle
       url: about/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
   search: 要找什么?   # search bar placeholder
 ############################### navigation bar ############################### > end
 
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: full# full, half
-  layout_scheme: featured # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: true
@@ -76,6 +76,7 @@ cover:
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
       url: https://github.com/volantis-x/hexo-theme-volantis/
+
 ############################### Cover ############################### > end
 
 pages:
@@ -188,7 +189,7 @@ article:
         icon: fas fa-hashtag
       # 分享
       share:
-        - id: qq
+        - id: #qq
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
         - id: # qzone
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
@@ -196,7 +197,7 @@ article:
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
         - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
-        - id: telegram
+        - id: #telegram
           img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
 ############################### Article Layout ############################### > end
 
@@ -220,7 +221,7 @@ comments:
     enableQQ: false # Unstable avatar link
     recordIP: false # Record commenter IP
     avatar: robohash # gravatar style https://valine.js.org/avatar
-    pageSize: 10 # comment list page size
+    pageSize: 15 # comment list page size
     lang: zh-cn
     highlight: true
     mathJax: false
@@ -297,8 +298,8 @@ comments:
     placeholder: 快来评论吧~  # 评论占位提示
     imageHosting: https://7bu.top/api/upload # 图床api（默认使用去不图床）
     # 其他配置项按照yml格式继续填写即可 除了 [el path placeholder uploadImage] 选项
-    meta: [nick,mail,link] # waline comment header info
-    requiredFields: [nick,mail]
+    meta: [nick,link] # waline comment header info
+    requiredFields: [nick]
     serverURL: https://fldpmpang.vercel.app # Waline 的服务端地址（必填） 测试用地址: https://waline-ruddy.vercel.app
     avatar: robohash # gravatar style https://waline.js.org/client/basic.html#avatar
     pageSize: 15 # 评论每页显示数量
@@ -362,7 +363,7 @@ comments:
 ############################### Sidebar ############################### > start
 sidebar:
   # 主页、分类、归档等独立页面
-  for_page: [blogger, category, tagcloud, qrcode]
+  for_page: [blogger, category, tagcloud]
   # layout: docs/post 这类文章页面
   for_post: [blogger, toc]
   # 侧边栏组件库
@@ -376,17 +377,17 @@ sidebar:
       shape: rectangle # circle, rectangle
       url: /about/
       title:
-      subtitle:
+      subtitle: "18岁,是学生"
       jinrishici: false # Poetry Today. You can set a string, and it will be displayed when loading fails.
       social:
-        - icon: fab fa-youtube
-          url: /atom.xml
         - icon: fas fa-envelope-open
-          url: mailto:me@xxx.com
+          url: mailto:me@frozenpang@gmail.com
         - icon: fab fa-github
-          url: https://github.com/volantis-x/
+          url: https://github.com/FLDPMpang
         - icon: fab fa-telegram
           url: /
+        - icon: fab fa-youtube
+          url: https://space.bilibili.com/288308942
     # ---------------------------------------
     # toc widget (valid only in articles)
     toc:
@@ -492,7 +493,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, analytics, info, copyright]
+  layout: [aplayer, social, analytics, info, copyright]
   social:
     - icon: #fas fa-rss
       url:
@@ -509,7 +510,10 @@ site_footer:
     <span id="lc-sv">本站总访问量为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
     <span id="lc-uv">访客数为 <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
   # site copyright
-  copyright: '[@2021FLDPMpang](/)'
+  copyright: '[@2021FLDPMpang](https://github.com/FLDPMpang/fldpmapngblog) 
+    <i class="iconfont icon-love"></i>
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo强力驱动</span></a>
+  '
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 ############################### Site Footer ############################### > end
@@ -568,7 +572,7 @@ plugins:
 
   # npm i hexo-wordcount
   wordcount:
-    enable: #true
+    enable: true
 
   ######## Plugins for ...
   # Button Ripple Effect
@@ -793,16 +797,16 @@ color_scheme:
   # 亮色主题（默认）
   light:
     # 网站背景色
-    site_bg: '#e8e8e8'
+    site_bg: '#dedede'
     # 网站背景上的文字
     site_inner: '#fff'
     # 网站页脚文字
     site_footer: '#666'
 
     # 卡片背景色
-    card: '#fff'
+    card: '#ccfdff'
     # 卡片上的普通文字
-    text: '#444'
+    text: '#ff6c0a'
 
     # 区块和代码块背景色
     block: '#f6f6f6'

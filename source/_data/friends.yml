@@ -2,9 +2,9 @@
   description:  # 分组描述
   items:
     - title: "蒟蒻云"
-      avatar: "/img/juruo.jpg"
+      avatar: "https://7.dusays.com/2021/03/11/d6d697e5b4ff8.png"
       url: "http://www.juruoyun.top"
-      screenshot: # 截图
+      screenshot: "https://7.dusays.com/2021/03/11/d92f5c46ea684.png"
       keywords: # 关键词
       description: "用心写BUG,用脚做UI"
     - title: # 名称
