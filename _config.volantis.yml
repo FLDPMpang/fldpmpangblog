@@ -549,7 +549,7 @@ plugins:
 
   # highlight.js
   highlightjs:
-    enable: true #true # Please set hexo.config.highlight.enable = false !!!
+    enable: false #true # Please set hexo.config.highlight.enable = false !!!
     js: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/highlight.min.js
     css: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10/build/styles/atom-one-dark.min.css
     # more: https://www.jsdelivr.com/package/npm/highlight.js?path=styles
@@ -595,7 +595,7 @@ plugins:
   backstretch:
     enable: true
     js: https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js
-    position: cover       # cover: sticky on the cover.   fixed: Fixed as background for the site.
+    position: fixed       # cover: sticky on the cover.   fixed: Fixed as background for the site.
     shuffle: true         # shuffle playlist
     duration: 600000       # Duration (ms)
     fade: 1500            # fade duration (ms) (Not more than 1500)
@@ -825,7 +825,7 @@ color_scheme:
     p: '#444'
 
     # 列表文字
-    list: '#666'
+    list: '#444'
     # 列表 hover 时的文字
     list_hl: 'mix($color-theme, #000, 80)'
     # 辅助性文字
@@ -898,7 +898,7 @@ custom_css:
     highlight:
       language: true # show language of codeblock
       copy_btn: true
-      grayscale: false # Enable grayscale effect
+      grayscale: true # Enable grayscale effect
     text_align: # left, right, justify, center
       h1: left
       h2: left

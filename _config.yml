@@ -57,11 +57,11 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ""
-  wrap: true
+  wrap: false
   hljs: false
 prismjs:
   enable: false
@@ -112,6 +112,7 @@ deploy:
   - type: git
     repo: git@github.com:FLDPMpang/fldpmapngblog.git
     branch: master
+favicon: https://7.dusays.com/2021/03/10/017cefa9fee43.png
 
 sitemap:
   path: sitemap.xml
