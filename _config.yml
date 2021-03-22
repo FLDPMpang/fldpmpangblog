@@ -114,9 +114,5 @@ deploy:
     repo: git@github.com:FLDPMpang/fldpmapngblog.git
     branch: master
 
-
-sitemap:
-  path: sitemap.xml
-
 popularPosts:
   eyeCatchImageAttributeName: headimg

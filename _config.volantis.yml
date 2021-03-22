@@ -106,7 +106,7 @@ article:
   body:
     # 文章顶部信息
     # 从 meta_library 中取
-    top_meta: [author, category, date, counter] #启用评论数量需在此添加
+    top_meta: [category, date, updated, tags ,counter] #启用评论数量需在此添加
     # ----------------
     # 文章页脚组件
     footer_widget:
@@ -147,14 +147,14 @@ article:
           - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
     # 文章底部信息
     # 从 meta_library 中取
-    bottom_meta: [updated, tags, share]
+    bottom_meta: [author ,wordcount ,walinecount]
     # meta library
     meta_library:
       # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
       # https://volantis.js.org/advanced-settings/#多人协同
       author:
         avatar:
-        name: 请设置文章作者
+        name: FLDPMpang
         url: /
       # 文章创建日期
       date:
@@ -179,7 +179,7 @@ article:
         desc: '' # 条评论
       walinecount:
         icon: fas fa-comment-dots
-        desc: '' # 条评论
+        desc: '条评论'
       # 文章字数和阅读时长
       wordcount:
         icon_wordcount: fas fa-keyboard
