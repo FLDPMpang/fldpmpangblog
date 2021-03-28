@@ -1,7 +1,5 @@
 <h1><p align="center">FLDPMpang 的个人博客</p></h1>
 
-![](https://gitee.com/fldpmpang/fldpmpangs-graph/raw/master/img/20201119121434.png)
-
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-5.1.1-brightgreen?style=for-the-badge"></a>
   <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-v12.18.4-yellowgreen?style=for-the-badge"></a>

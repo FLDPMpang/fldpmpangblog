@@ -1,6 +1,6 @@
 ---
 layout: friends # 必须
-title: 我的朋友 # 可选，这是友链页的标题
+title: 我的朋友
 ---
 
 <!-- more -->
