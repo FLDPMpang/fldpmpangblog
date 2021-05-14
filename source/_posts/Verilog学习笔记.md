@@ -3,7 +3,7 @@ title: FPGA学习笔记(一)-Verilog HDL的基本语法
 tags:
   - FPGA
   - Verilog
-categories: 硬件工程
+categories: 电子电路设计
 abbrlink: 742
 date: 2020-12-15 10:54:36
 ---
