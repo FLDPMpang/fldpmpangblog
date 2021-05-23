@@ -14,33 +14,20 @@
 
 ## 网站地址 https://www.fldpmpang.website
 
-## 网站地址(国内) https://fldpmpang.gitee.io
-
-<br>
-
-## 网站部署仓库(Gitee) https://gitee.com/fldpmpang/fldpmpang
-
-## 网站部署仓库(Github) https://github.com/FLDPMpang/fldpmapngblog
-
 <br>
 
 ## 网站源码(Gitee) https://gitee.com/fldpmpang/fldpmpang-blog-code
 
 ## 网站架构
 
-基于[Hexo](https://hexo.io/zh-cn/)博客框架,使用[Fluid](https://github.com/fluid-dev/hexo-theme-fluid)博客主题搭建
-部署在[码云 Gitee](https://fldpmpang.gitee.io)和[Github](https://fldpmpang.github.io/fldpmapngblog/)
+基于[Hexo](https://hexo.io/zh-cn/)博客框架,使用[volantis](https://github.com/volantis-x/hexo-theme-volantis)博客主题搭建
+托管于[vercel](https://vercel.com)
 
 ## 更新记录
 
 - 全站公共资源使用 CDN,加入了首页每日一言
 - 全站背景图使用 webp 格式
 - 使用短链接
-
-## 待办
-
-- 更换评论系统为 gitalk
-- 全站资源使用 cdn 或 cos 加速访问
 
 ## 联系我
 
@@ -50,7 +37,6 @@ Telegram: [FLDPMpang](https://t.me/FLDPMpang)
 
 BiliBili: [FL 冰封龙虾](https://space.bilibili.com/288308942)
 
-<br />
 <br />
 
 ```
