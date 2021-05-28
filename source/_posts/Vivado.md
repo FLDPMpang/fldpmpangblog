@@ -15,7 +15,7 @@ date: 2021-05-14 11:20:38
 可能有人觉得有点标题党,但是我翻看一下全网还真没有把安装过程和原因写的特别清楚的
 只重点些某些方面,而且大多都是在 CSDN 上,也不一定使用 markdown,阅读效果很不好.
 
-最近我重新写了 ArchWiki 的[XilinxVivado](https://wiki.archlinux.org/title/Xilinx_Vivado_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)部分,那个写的比较正经.
+最近我重新写了 ArchWiki 的[XilinxVivado](<https://wiki.archlinux.org/title/Xilinx_Vivado_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)部分,那个写的比较正经.
 
 废话不多说了
 
@@ -39,11 +39,11 @@ date: 2021-05-14 11:20:38
 
 Vivado SDK 需要`gtk2`库, Vitis 需要安装`xorg-xlsclients` 库
 
+请使用[Xorg](https://wiki.archlinux.org/title/Xorg)显示管理器,Vivado 使用的 Java 版本对 Wayland 存在兼容性问题
+
 arch 系发行版可以使用[AUR](https://aur.archlinux.org)中的`xilinx-vivado-dummy`进行替代安装所有这些依赖项
 
 如果你使用平铺式窗口管理器 启动安装程序前加入环境变量
-
-请使用[Xorg](https://wiki.archlinux.org/title/Xorg)显示管理器,Vivado 使用的 Java 版本存在兼容性问题
 
 ```bash
 export _JAVA_AWT_WM_NONREPARENTING=1

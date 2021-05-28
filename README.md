@@ -16,7 +16,7 @@
 
 <br>
 
-## 网站源码(Gitee) https://gitee.com/fldpmpang/fldpmpang-blog-code
+## 网站源码 https://github.com/FLDPMpang/fldpmpangblog-code
 
 ## 网站架构
 
